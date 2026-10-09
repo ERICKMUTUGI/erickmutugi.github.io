@@ -116,14 +116,14 @@ footer{background:#02270e;color:#cde2d1;padding:30px 0}
 
 
 /* Social icons at the bottom of the TSS website */
-.social-footer{display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px}
-.social-heading strong{display:block;color:#fff;font-size:1.2rem}
-.social-heading p{font-size:.9rem;margin-top:4px}
-.social-icons{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap}
-.social-icon{width:46px;height:46px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.24);border-radius:50%;background:rgba(255,255,255,.08);color:#fff;transition:transform .2s ease,background .2s ease}
-.social-icon svg{width:22px;height:22px;fill:currentColor}
+.social-footer{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px}
+.social-heading strong{display:block;color:#fff;font-size:.95rem}
+.social-heading p{font-size:.8rem;margin-top:2px}
+.social-icons{display:flex;justify-content:center;align-items:center;gap:9px;flex-wrap:nowrap;width:100%}
+.social-icon{width:26px;height:26px;flex:0 0 26px;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:50%;background:transparent;color:#fff;transition:transform .2s ease,background .2s ease}
+.social-icon svg{width:15px;height:15px;fill:currentColor}
 .social-icon.instagram svg rect,.social-icon.instagram svg circle{fill:none}
 .social-icon.instagram svg circle:last-child{fill:currentColor;stroke:none}
-.social-icon:hover{transform:translateY(-3px);background:rgba(255,255,255,.18)}
-.footer-bottom{width:100%;border-top:1px solid rgba(255,255,255,.15);padding-top:16px;margin-top:4px}
-@media(max-width:560px){.social-icons{gap:10px}.social-icon{width:42px;height:42px}.social-icon svg{width:20px;height:20px}}
+.social-icon:hover{transform:translateY(-2px);background:rgba(255,255,255,.12)}
+.footer-bottom{width:100%;border-top:1px solid rgba(255,255,255,.15);padding-top:12px;margin-top:2px}
+@media(max-width:560px){.social-icons{gap:clamp(3px,1.6vw,8px)}.social-icon{width:22px;height:22px;flex-basis:22px}.social-icon svg{width:13px;height:13px}}
