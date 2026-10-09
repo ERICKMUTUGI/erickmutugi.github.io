@@ -127,3 +127,16 @@ footer{background:#02270e;color:#cde2d1;padding:30px 0}
 .social-icon:hover{transform:translateY(-2px);background:rgba(255,255,255,.12)}
 .footer-bottom{width:100%;border-top:1px solid rgba(255,255,255,.15);padding-top:12px;margin-top:2px}
 @media(max-width:560px){.social-icons{gap:clamp(3px,1.6vw,8px)}.social-icon{width:22px;height:22px;flex-basis:22px}.social-icon svg{width:13px;height:13px}}
+
+
+/* Reference-inspired social icons: small gold outlines on black */
+footer{background:#000;color:#f2c900;padding:24px 0}
+.social-footer{align-items:flex-start;text-align:left;gap:10px}
+.social-heading strong{font-size:.95rem}
+.social-heading p{color:#d8d8d8}
+.social-icons{justify-content:flex-start;gap:15px;flex-wrap:nowrap}
+.social-icon{width:39px;height:39px;flex:0 0 39px;border:1px solid #f2c900;border-radius:50%;background:#000;color:#f2c900}
+.social-icon svg{width:19px;height:19px}
+.social-icon:hover{transform:translateY(-2px);background:#171300}
+.footer-bottom{border-top-color:rgba(242,201,0,.25)}
+@media(max-width:560px){.social-icons{gap:clamp(8px,2.8vw,15px)}.social-icon{width:36px;height:36px;flex-basis:36px}.social-icon svg{width:17px;height:17px}}
